@@ -1,0 +1,135 @@
+* {
+	padding: 0;
+	margin:0;
+}
+header{
+	padding-top: 15px;
+	position:absolute;
+	right: 0;
+	text-decoration-style: none;
+	}
+	header a{
+		text-decoration:none;
+		color:black;
+		padding-left:5px;
+	}
+	a:hover{
+		text-decoration:underline;
+	}
+	header img {
+		position:relative;
+		top:8px;
+		margin-top:-72px;
+		height:25px;
+		width:20px;
+	}
+	header input{
+		margin: 0 20px 0 10px;
+		border:1px solid #1a53ff;
+		background-color: #3366ff;
+		color:white;
+		font-size: 1em;
+		padding: 3px 9px;
+		border-radius: 3px;
+	}
+	header input:hover{
+		border:1px solid #002db3;
+	}
+body{	
+	height:100%;
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+	}
+	img {
+		margin-top: 70px;
+		padding-top:50px;
+		height:184px;
+		width:500px;
+	}
+	#search{
+		height:2.5em;
+		width:530px;
+		background-color:white;
+		color: #222;
+		border: 2px solid #f2f2f2;
+		}
+	#search:hover{
+		border: 2px solid #d9d9d9;
+	}
+	#mic{
+		position:relative;
+		top:11px;
+		right:33px;
+		height:30px;
+		width:30px;
+		margin:0;
+	}
+	#search_button{
+		height:2.5em;
+		width:110px;
+		margin-right:5px;
+		color: #cccccc;
+	}
+	#search_button:hover, #search_button:active{
+		border: 2px solid #d9d9d9;
+		color: black;
+	}
+	#ifl_button{
+		height:2.5em;
+		width:130px;
+		color: #cccccc;
+	}
+	#ifl_button:hover, #ifl_button:active{
+		border: 2px solid #d9d9d9;
+		color: black;
+	}
+	p a {
+		text-decoration:none;
+		color:blue;
+	}
+	p a:hover: {
+		text-decoration:underline;
+	}
+	input {
+		margin: 20px 0 20px 0;
+		border:none;
+		background-color:#f8f8f8;
+	}
+	#clearfooter{
+		height:50px;
+	}
+	#footer{
+	background-attachment: scroll;
+	background-clip:border-box;
+	background-color:#f2f2f2;
+	height:40px;
+	width:1363px;
+	margin: -50px auto 0 auto;
+	line-height:40px;
+	position:absolute;
+	bottom:0;
+	}
+	#left{
+		position:absolute;
+		left:0;
+		}
+		.left{
+		text-decoration:none;
+		padding:0 10px;
+		color:#222;
+		}
+		.left:hover{
+		text-decoration:underline;
+		}
+	#right{
+		position: absolute;
+		right: 10px;
+		}
+		.right{
+		text-decoration:none;
+		margin: 0 10px;
+		color:#222;
+		}
+		.right:hover{
+		text-decoration:underline;
+		}
